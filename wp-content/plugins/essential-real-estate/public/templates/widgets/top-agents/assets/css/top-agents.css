@@ -1,0 +1,42 @@
+.ere_widget_top_agents .agent-item {
+	margin-bottom: 40px;
+}
+.ere_widget_top_agents .agent-item:last-child {
+	margin-bottom: 0;
+}
+.ere_widget_top_agents .agent-avatar {
+	float: left;
+	width: 70px;
+	height: 70px;
+}
+.ere_widget_top_agents .agent-avatar img {
+	width: 100%;
+	height: 100%;
+}
+.ere_widget_top_agents .agent-avatar + .agent-info {
+	margin-left: 77px;
+}
+.ere_widget_top_agents .agent-info h4 {
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+.ere_widget_top_agents .agent-info h4 a {
+	color: #222;
+}
+.ere_widget_top_agents .agent-info h4 a:hover {
+	color: #fb6a19;
+}
+.ere_widget_top_agents .agent-info .agent_position {
+	font-weight: 400;
+	color: #8f8f8f;
+}
+.ere_widget_top_agents .agent-info p {
+	font-size: 12px;
+	font-weight: 400;
+	margin-top: 7px;
+	color: #8f8f8f;
+}
+.ere_widget_top_agents .agent-info .total_property {
+	color: #fb6a19;
+}

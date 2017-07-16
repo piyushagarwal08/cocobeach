@@ -1,0 +1,153 @@
+/*----------Single Agents----------*/
+.ere-agent-single .agent-single .agent-content-top {
+	margin-bottom: 10px;
+}
+
+.ere-agent-single .agent-single .agent-avatar {
+	float: left;
+}
+
+.ere-agent-single .agent-single .agent-avatar img {
+	width: 100%;
+}
+
+.ere-agent-single .agent-single .agent-title h2 {
+	margin-bottom: 10px;
+	margin-top: -4px;
+}
+
+.ere-agent-single .agent-single .agent-social a {
+	width: 35px;
+	height: 35px;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+	display: inline-block;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	text-align: center;
+	margin-bottom: 10px;
+	background: #222;
+
+}
+
+.ere-agent-single .agent-single .agent-social a:hover {
+	background: #fb6a19;
+}
+
+.ere-agent-single .agent-single .agent-social a i {
+	color: #fff;
+	line-height: 35px;
+}
+
+.ere-agent-single .agent-single .agent-social a + a {
+	margin-left: 2px;
+}
+
+.ere-agent-single .agent-single .agent-contact h4 i {
+	color: #fb6a19;
+	margin-right: 8px;
+}
+
+.ere-agent-single .agent-single .agent-contact {
+	margin-top: 25px;
+}
+
+.ere-agent-single .agent-single .agent-contact span,
+.ere-agent-single .agent-single .agent-contact a {
+	display: block;
+}
+
+.ere-agent-single .agent-single .agent-contact span i,
+.ere-agent-single .agent-single .agent-contact a i {
+	width: 15px;
+}
+
+.ere-agent-single .agent-single .agent-contact span + * {
+	margin-top: 7px;
+}
+
+.single-property-area .contact-agent .form-group {
+	margin-bottom: 30px;
+}
+
+.ere-agent-single .contact-agent input,
+.ere-agent-single .contact-agent textarea {
+	-webkit-border-radius: 0;
+	-webkit-background-clip: padding-box;
+	-moz-border-radius: 0;
+	-moz-background-clip: padding;
+	border-radius: 0;
+	background-clip: padding-box;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.ere-agent-single .contact-agent textarea {
+	min-height: 151px;
+	max-width: 100%;
+	padding-top: 16px;
+}
+
+.ere-agent-single .contact-agent .agent-contact-btn:focus {
+	outline: none;
+}
+
+.ere-agent-single .contact-agent .form-error {
+	color: #fb6a19;
+}
+
+.ere-agent-single .contact-agent .form-messages {
+	margin-top: 10px;
+	text-align: center;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #fb6a19;
+}
+
+.ere-agent-single .contact-agent .agent-contact-btn {
+	-webkit-border-radius: 0;
+	-webkit-background-clip: padding-box;
+	-moz-border-radius: 0;
+	-moz-background-clip: padding;
+	border-radius: 0;
+	background-clip: padding-box;
+}
+
+.ere-agent-single .agent-other,
+.ere-agent-single .agent-properties {
+	padding-top: 100px;
+}
+
+.ere-agent-single .agent-other .ere-agents {
+	margin-bottom: -60px;
+}
+
+@media (max-width: 991px) {
+	.ere-agent-single .agent-single .agent-avatar {
+		float: inherit;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.ere-agent-single .agent-single .agent-content {
+		margin-bottom: 50px;
+	}
+
+	.ere-agent-single .agent-single .agent-social {
+		text-align: left;
+		margin-top: 30px;
+	}
+
+	.ere-agent-single .agent-other,
+	.ere-agent-single .agent-properties {
+		padding-top: 60px;
+	}
+}
+
+@media (max-width: 767px) {
+	.ere-agent-single .agent-single .agent-contact div + div {
+		margin-top: 7px;
+	}
+}

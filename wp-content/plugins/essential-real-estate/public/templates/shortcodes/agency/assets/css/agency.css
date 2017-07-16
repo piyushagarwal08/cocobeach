@@ -1,0 +1,128 @@
+.ere-agency a {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.ere-agency .paging-navigation.next-disable .prev {
+	right: 0;
+	margin-right: 0;
+}
+.ere-agency .agency-inner {
+	border-bottom: 2px solid #ededed;
+}
+.ere-agency .agency-avatar {
+	float: left;
+	width: 270px;
+	min-height: 210px;
+	margin-right: 30px;
+	border: 1px solid #ededed;
+	background-color: #fafafa;
+	position: relative;
+}
+.ere-agency .agency-avatar img {
+	max-height: 130px;
+	width: auto;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.ere-agency .agency-item-content {
+	overflow: hidden;
+	padding-left: 1px;
+}
+.ere-agency .agency-heading {
+	margin-bottom: 28px;
+}
+.ere-agency .agency-title {
+	margin-bottom: 0;
+}
+.ere-agency .agency-title a {
+	color: #222;
+}
+.ere-agency .agency-title a:hover {
+	color: #fb6a19;
+}
+.ere-agency .agency-position {
+	font-weight: 500;
+}
+.ere-agency .agency-social a {
+	color: #222;
+	margin-right: 26px;
+}
+.ere-agency .agency-social a:hover {
+	color: #fb6a19;
+}
+.ere-agency .agency-excerpt {
+	font-size: 13px;
+	line-height: 24px;
+	margin-bottom: 29px;
+	height: 48px;
+	overflow: hidden;
+}
+.ere-agency .agency-info {
+	overflow: auto;
+}
+.ere-agency .agency-info-item {
+	width: 33.333333%;
+	float: left;
+	margin-bottom: 9px;
+}
+.ere-agency .agency-info-item i {
+	width: 20px;
+}
+@media (max-width: 1199px) {
+	.ere-agency .agency-heading {
+		margin-bottom: 18px;
+	}
+	.ere-agency .agency-excerpt {
+		margin-bottom: 19px;
+	}
+	.ere-agency .agency-info-item {
+		width: 50%;
+	}
+	.ere-agency .agency-info-item.agency-website,
+	.ere-agency .agency-info-item.agency-licenses {
+		margin-bottom: 0;
+	}
+}
+@media (max-width: 991px) {
+	.ere-agency .agency-avatar {
+		float: none;
+		margin-bottom: 20px;
+	}
+	.ere-agency .agency-item-content {
+		overflow: inherit;
+	}
+	.ere-agency .agency-heading {
+		margin-bottom: 28px;
+	}
+	.ere-agency .agency-excerpt {
+		margin-bottom: 29px;
+	}
+}
+@media (max-width: 599px) {
+	.ere-agency .agency-heading {
+		display: block;
+	}
+	.ere-agency .agency-heading > div {
+		display: block;
+	}
+	.ere-agency .agency-heading .agency-social {
+		text-align: left;
+		margin-top: 15px;
+	}
+	.ere-agency .agency-info-item {
+		width: 100%;
+	}
+	.ere-agency .agency-info-item.agency-website,
+	.ere-agency .agency-info-item.agency-licenses {
+		margin-bottom: 9px;
+	}
+}
