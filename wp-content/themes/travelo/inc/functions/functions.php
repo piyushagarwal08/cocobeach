@@ -2138,3 +2138,7 @@ if ( ! function_exists( 'trav_google_map_url' ) ) {
         return $map_url;
     }
 }
+
+/*
+*/
+

@@ -225,62 +225,7 @@ if ( have_posts() ) :
 							<?php if ( count( $enabled_features ) > 1 ) : ?>
           						  <div class="tab-pane fade<?php if ( $enabled_features[0] == 'real' ) echo ' active in' ?>" id="real-tab">
 						<?php endif; ?>
-						
-						<form role="search" method="get" id="searchform" class="real-searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-								<input type="hidden" name="post_type" value="real">
-								<div class="row">
-										<div class="ere-title form-group col-sm-4 col-md-4">
-											<label><?php _e( 'Title', 'trav' ) ?></label>
-		                                                <input type="text"
-		                                                    value=""
-		                                                    data-default-value=""
-		                                                    name="title"
-		                                                    class="input-text full-width"
-		                                                    placeholder="<?php _e( 'Title', 'trav') ?>" />
-		                                <div id="ere_result_by_title" class="ere-result-by-title"></div>
-										</div>
-										<div class="ere-location form-group col-sm-4 col-md-4">
-											<label><?php _e( 'Address', 'trav' ) ?></label>
-												<input type="text"
-													value=""
-                                                    data-default-value=""
-                                                    name="keyword"
-                                                    class="input-text full-width"
-                                                    placeholder="<?php _e( 'Address', 'trav') ?>" />
-										</div>
-										<div class="form-group col-sm-4 col-md-4">
-											<label><?php _e( 'City', 'trav' ) ?></label>
-										        <select name="city"
-										                class="ere-property-city-ajax search-field"
-										                title="Cities" data-selected="" data-default-value="">
-										            	<option value="austin">Austin</option><option value="baytown">Baytown</option><option value="cedar-hill">Cedar Hill</option><option value="chester">Chester</option><option value="chicago">Chicago</option><option value="coleman">Coleman</option><option value="corpus-christi">Corpus Christi</option><option value="dallas">Dallas</option><option value="fayetteville">Fayetteville</option><option value="galveston">Galveston</option><option value="jersey-city">Jersey City</option><option value="los-angeles">Los Angeles</option><option value="midland">Midland</option><option value="new-york">New York</option><option value="odessa">Odessa</option><option value="san-angelo">San Angelo</option><option value="san-antonio">San Antonio</option>
-										            	<option value="" selected> <?php _e( 'All Cities', 'trav' ) ?> </option>
-										        </select>
-    									</div>	
-    									<div class="form-group col-sm-4 col-md-4">
-    										<label><?php _e( 'Types', 'trav' ) ?></label>
-	        									<select name="type" 
-	        										title="Property Types"
-	        										class="search-field" data-default-value="">
-	                    							<option value="apartment">Apartment</option><option value="bar">Bar</option><option value="cafe">Cafe</option><option value="farm">Farm</option><option value="house">House</option><option value="restaurant">Restaurant</option><option value="spa">Spa</option><option value="store">Store</option><option value="villa">Villa</option>
-	                   								<option value="" selected><?php _e( 'All Types', 'trav' ) ?></option>
-	        									</select>
-    									</div>
-    									 <div class="form-group col-md-4 col-sm-6 col-xs-6 col-mb-12">
-	    									 <label><?php _e( 'Bedrooms', 'trav' ) ?></label>
-	            								<select name="bedrooms" title="Property Bedrooms"
-	                									class="search-field" data-default-value="any">
-	                    								<option value="any"><?php _e( 'Any Bedrooms', 'trav' ) ?></option><option value="1" >1</option><option value="2" >2</option><option value="3" >3</option><option value="4" >4</option><option value="5" >5</option><option value="6" >6</option><option value="7" >7</option><option value="8" >8</option><option value="9" >9</option><option value="10" >10</option></select>
-	                    				</div>
-                    					<div class="form-group col-md-4 col-sm-6 col-xs-6 col-mb-12">
-	    									 <label><?php _e( 'Bathrooms', 'trav' ) ?></label>
-	            								<select name="bathrooms" title="Property Bathrooms"
-	                									class="search-field" data-default-value="any">
-	                    								<option value="any"><?php _e( 'Any Bathrooms', 'trav' ) ?></option><option value="1" >1</option><option value="2" >2</option><option value="3" >3</option><option value="4" >4</option><option value="5" >5</option><option value="6" >6</option><option value="7" >7</option><option value="8" >8</option><option value="9" >9</option><option value="10" >10</option></select>
-	                    				</div>
-                    			</div> <!--row end-->
-							</form>
-        
+						<?php echo do_shortcode("[vc_row][vc_column][ere_advanced_search][ere_property_type][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row]")?>
            					<?php if ( count( $enabled_features ) > 1 ) : ?>
 								</div>  <!--fade panel-->
 							<?php endif; ?>
